@@ -1,3 +1,3 @@
 require("flameaxe.remap")
-require("flameaxe.packer")
+require("flameaxe.lazy")
 require("flameaxe.colorscheme")
