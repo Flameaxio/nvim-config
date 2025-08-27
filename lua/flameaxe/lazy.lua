@@ -33,5 +33,17 @@ require("lazy").setup({
     },
     opts = {}
   },
-  'ThePrimeagen/harpoon'
+  'ThePrimeagen/harpoon',
+  'mbbill/undotree',
+  'sindrets/diffview.nvim',
+  {
+    "NeogitOrg/neogit",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "sindrets/diffview.nvim",
+      "nvim-telescope/telescope.nvim",
+    },
+    config = true,
+  },
+  'nvim-tree/nvim-web-devicons'
 })
