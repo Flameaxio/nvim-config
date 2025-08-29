@@ -1,3 +1,5 @@
 require("flameaxe")
 vim.lsp.enable('luals')
 vim.lsp.enable('rust-analyzer')
+vim.lsp.enable('rubocop')
+vim.lsp.enable('solargraph')

@@ -37,5 +37,6 @@ require("lazy").setup({
   'mbbill/undotree',
   'sindrets/diffview.nvim',
   'tpope/vim-fugitive',
-  'nvim-tree/nvim-web-devicons'
+  'nvim-tree/nvim-web-devicons',
+  'neovim/nvim-lspconfig',
 })
